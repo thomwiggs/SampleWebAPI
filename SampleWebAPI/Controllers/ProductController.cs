@@ -26,6 +26,12 @@ namespace SampleWebAPI.Controllers
                 Name = "Toaster",
                 Description = "It doesn't drive, but it toasts"
             }
+			new Product
+            {
+                Id = 3,
+                Name = "Waffle iron",
+                Description = "It doesn't toast, but makes delicious waffles"
+            }
         };
 
         // GET: api/Product
