@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using SampleWebAPI.Controllers;
 
-namespace SampeWebAPITests
+namespace SampleWebAPITests
 {
     [TestFixture]
     public class ProductControllerTests

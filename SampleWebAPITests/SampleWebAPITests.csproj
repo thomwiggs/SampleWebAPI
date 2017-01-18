@@ -7,8 +7,8 @@
     <ProjectGuid>{D95AFA6A-ACE5-415D-85DF-0E1ADC624AE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SampeWebAPITests</RootNamespace>
-    <AssemblyName>SampeWebAPITests</AssemblyName>
+    <RootNamespace>SampleWebAPITests</RootNamespace>
+    <AssemblyName>SampleWebAPITests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
