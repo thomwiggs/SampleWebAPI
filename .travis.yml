@@ -3,7 +3,7 @@ solution: SampleWebAPI.sln
 
 deploy:
   provider: azure_web_apps
-  username: samplewebapi
-  password: gdC81t2dRmhr
-  site: hapwebapi
-  slot: hapwebapi
+  username: Azure_User
+  password: Azure_Pass
+  site: Azure_Deploy_Site
+  slot: Azure_Deploy_Slot
