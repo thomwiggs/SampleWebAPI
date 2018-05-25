@@ -7,3 +7,5 @@ deploy:
   password: Azure_Pass
   site: Azure_Deploy_Site
   slot: Azure_Deploy_Slot
+  skip_cleanup: true
+  verbose: true
