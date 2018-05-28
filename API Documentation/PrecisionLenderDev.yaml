@@ -1,0 +1,53 @@
+swagger: "2.0"
+info:
+  description: "This is a sample web API. It returns information on Products including ID,s names, and descriptions. A product is an ID, a name, and a description."
+  version: "1.0.0"
+  title: "SampleWebAPI"
+  contact:
+    email: "thom.wiggs@gmail.com"
+host: "samplewebapi.hapwiggins.com"
+paths:
+  /api/Product:
+    get:
+      tags:
+      - "product"
+      summary: "Displays all products"
+      description: "Multiple products returned with IDs, names, and descriptions"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Product"
+        400:
+          description: "Invalid value"
+  /api/Product/ID:
+    get:
+      tags:
+      - "product"
+      summary: "Finds products by ID"
+      description: "Find individual products by ID"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Product"
+        400:
+          description: "Invalid value"
+definitions:
+  Product:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+      name:
+        type: "string"
+      description:
+        type: "string"
